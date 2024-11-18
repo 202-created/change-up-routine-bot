@@ -2,7 +2,7 @@ name: routine-bot
 on:
   workflow_dispatch:
   schedule:
-    - cron: "55 22 * * 1-5" # Everyday from Monday through Friday AM 7:55 KST
+    - cron: "55 22 * * 0-4" # Everyday from Monday through Friday AM 7:55 KST
 
 jobs:
   send-message:
